@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Visualizador de Imagens</title>
+    </head>
+    <body>
+        <div id="viewer">
+            <img src="./images/image.png" alt="Visualização" id="imgview"> 
+        </div>
+        <div id="option">
+            <input type="range" name="" id="percentage" min='0' max="100">
+            <ul id="filtermenu">
+                <li>
+                    <button id="opacity"></button>
+                </li>
+                <li>
+                    <button id="grayscale"></button>
+                </li>
+                <li>
+                    <button id="invert"></button>
+                </li>
+                <li>
+                    <button id="none"></button>
+                </li>
+            </ul> 
+        </div>
+        <div id="imageoption">
+            <img src="./images/bird-150.jpg" alt="Bird" id="bird">
+            <img src="./images/chameleon-150.jpg" alt="Chameleon" id="chameleon">
+            <img src="./images/elephant-150.jpg" alt="Elephant" id="elephant">
+            <img src="./images/pug-150.jpg" alt="Pug" id="pug">
+            <img src="./images/rabbit-150.jpg" alt="Rabbit" id="rabbit">
+            <img src="./images/roster-150.jpg" alt="Roster" id="roster">
+            <img src="./images/squirrel-150.jpg" alt="Squirrel" id="squirrel">
+            <img src="./images/tiger-150.jpg" alt="Tiger" id="tiger">
+            <img src="./images/zebra-150.jpg" alt="Zebra" id="zebra">
+        </div>
+        <script src="./mainscript.js"></script>
+    </body>
+</html>

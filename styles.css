@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #444;
+}
+div{
+    margin: 5px auto;
+    background-color: #888;
+    width: 80%;
+    justify-content: center;
+}
+#viewer{
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    height: 600px;
+}
+#imgview{
+    height: 90%;
+    filter: none;
+}
+#option{
+    width: 30%;
+}
+#option, #filtermenu{
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+}
+ul{
+    list-style: none;
+}
+ul li button{
+    background-color: #777;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+}
+button#opacity{
+    background-image: url('./images/icons/transparent.png');
+}
+button#grayscale{
+    background-image: url('./images/icons/grayscale.png');
+}
+button#invert{
+    background-image: url('./images/icons/invert.png');
+}
+button#none{
+    background-image: url('./images/icons/none.png');
+}
+#imageoption{
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    overflow: auto;
+    width: 30%;
+    gap: 10px;
+    justify-content: left;
+}
+
+
